@@ -7,7 +7,7 @@ moveLift(2); // Set the initial position of the lift to zero floor
 
 // Helper function to move the lift
 function moveLift(level) {
-    lift.style.transform = `translateY(${level * 230}px)`;
+    lift.style.transform = `translateY(${level * 200}px)`;
     currentLevel = level;
 }
 
