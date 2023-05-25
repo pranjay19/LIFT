@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elevator Application</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="lift-container">
+        <div class="heading">
+            <h1>LIFT</h1>
+        </div>
+
+        <div class="floor" id="second">
+            <div class="second_floor">
+                <h1>Level 2</h1>
+            </div>
+            <button class="downBtn" value="2">&#8595;</button>
+        </div>
+
+        <div class="floor" id="first">
+            <div class="first_floor">
+                <h1>Level 1</h1>
+            </div>
+            <button class="upBtn" value="1">&#8593;</button>
+            <button class="downBtn" value="1">&#8595;</button>
+        </div>
+
+        <div class="floor" id="zero">
+            <div class="ground_floor">
+                <h1>Level 0/GL</h1>
+            </div>
+            <button class="upBtn" value="0">&#8593;</button>
+        </div>
+
+        <div class="lift" id="lift">
+            <img src="stickman.png" height="100" width="50">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
